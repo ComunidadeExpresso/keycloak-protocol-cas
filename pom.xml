@@ -22,7 +22,7 @@
 
     <groupId>org.keycloak</groupId>
     <artifactId>keycloak-protocol-cas</artifactId>
-    <version>26.6.3</version>
+    <version>26.6.4</version>
     <name>Keycloak CAS Protocol</name>
     <description />
 
@@ -39,7 +39,7 @@
         <maven.compiler.release>${java.version}</maven.compiler.release>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <project.build.outputTimestamp>1780659975</project.build.outputTimestamp>
+        <project.build.outputTimestamp>1782473377</project.build.outputTimestamp>
     </properties>
 
     <dependencies>
@@ -127,7 +127,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-common</artifactId>
-            <version>3.1.11</version>
+            <version>3.1.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
